@@ -16,7 +16,7 @@
         <Image Source="abacus.jpg"  HorizontalAlignment="Left" Height="195" Margin="1180,63,0,0" VerticalAlignment="Top" Width="240"/>
         <TextBlock HorizontalAlignment="Left" FontSize="80" FontWeight="Bold" Margin="375,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="177" Width="901" SelectionChanged="TextBlock_SelectionChanged"><Run Text="Universal Calculator"/><LineBreak/><Run/></TextBlock>
         <Button Content="Math Calculator" Name="mathsCalculatorButton" Background="Orange" FontSize="60" Height="115" Margin="0,412,0,0" VerticalAlignment="Top" Width="595" HorizontalAlignment="Center" Click="mathsCalculatorButton_Click"/>
-		<Button Content="Mortgage Calculator" Name="mortgageCalulatorButton" Background="Orange" FontSize="60" Height="115" Margin="0,555,0,0" VerticalAlignment="Top" Width="595" HorizontalAlignment="Center"/>
+		<Button Content="Mortgage Calculator" Name="mortgageCalulatorButton" Background="Orange" FontSize="60" Height="115" Margin="0,555,0,0" VerticalAlignment="Top" Width="595" HorizontalAlignment="Center" Click="mortgageCalulatorButton_Click"/>
 		<Button Content="Currency Calculator" Name="currencyConverterButton" Background="Orange" FontSize="60" Height="115" Margin="0,690,0,0" VerticalAlignment="Top" Width="595" HorizontalAlignment="Center"/>
 		<Button Content="Exit" FontSize="60" Name="exitButton" Background="Orange" Height="115" Margin="0,835,0,0" VerticalAlignment="Top" Width="595" HorizontalAlignment="Center" Click="exitButton_Click"/>
 
