@@ -52,5 +52,6 @@ namespace Calculator
 		{
 			this.Frame.Navigate(typeof(mortageCalculator));
 		}
+		//
 	}
 }
