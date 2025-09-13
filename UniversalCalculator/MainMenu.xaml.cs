@@ -12,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Popups;
+
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -46,12 +48,16 @@ namespace Calculator
 		{
 			this.Frame.Navigate(typeof(CurrencyCalculator1));
 		}
-		
 
 		private void mortgageCalulatorButton_Click(object sender, RoutedEventArgs e)
 		{
 			this.Frame.Navigate(typeof(mortageCalculator));
 		}
-		//
+
+		private async void tripCalculator_Click(object sender, RoutedEventArgs e)
+		{
+			var dialog = new MessageDialog("Trip calculator C# code will be developed later.");
+			await dialog.ShowAsync(); ;
+		}
 	}
 }
